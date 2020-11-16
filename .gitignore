@@ -1,0 +1,10 @@
+/node_modules/
+/.vscode/
+/npm-debug.log
+.idea/
+*.xml
+.env
+/build/
+/config/local.config.js
+/dev/
+webpack.config.js
