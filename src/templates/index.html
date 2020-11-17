@@ -42,12 +42,13 @@
       background: rgba(62, 65, 77, 1);
     }
   </style>
-  <% for (var dll in htmlWebpackPlugin.options.dlls) { %>
-  <script type="text/javascript" src="<%= htmlWebpackPlugin.options.dlls[dll] %>"></script><% } %>
+  <!--Vue3.0支持 最新稳定版-->
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
 
 <body>
-  <div id="app" class="pandora-app"></div>
+  <div id="app"></div>
 </body>
 
 </html>
