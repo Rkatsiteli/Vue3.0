@@ -1,0 +1,1 @@
+(self.webpackChunkbi=self.webpackChunkbi||[]).push([[6],{6:(e,c,n)=>{"use strict";n.r(c),n.d(c,{default:()=>a});var r=n(2005);const t={class:"404"},l=(0,r.createVNode)("div",null,"404页面",-1);const s={render:function(e,c,n,s,a,u){return(0,r.openBlock)(),(0,r.createBlock)("article",t,[l])}},a=s}}]);

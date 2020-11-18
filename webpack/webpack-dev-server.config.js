@@ -1,4 +1,3 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("./webpack.config");
 const ip = require("ip");
 const path = require("path");
@@ -8,10 +7,7 @@ module.exports = {
   plugins:
     (webpack.plugins || []) &&
     webpack.plugins.concat([
-      new HtmlWebpackPlugin({
-        filename: "index.html",
-        template: "src/templates/index.html",
-      }),
+      //用户存放特殊plugins配置
     ]),
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
