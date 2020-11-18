@@ -1,8 +1,11 @@
-import messages from './404';
-import batch from './batch';
+import messages from "./404";
+import batch from "./batch";
+import { useI18n, createI18n } from "vue-i18n";
 
-export const i18n = new VueI18n({
-  locale: 'zh-CN',
+const i18n = createI18n({
+  locale: "zh-CN",
   messages,
   batch,
 });
+
+export { i18n };

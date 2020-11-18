@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("./webpack.config");
 const ip = require("ip");
+const path = require("path");
 
 module.exports = {
   ...webpack,
@@ -13,9 +14,11 @@ module.exports = {
       }),
     ]),
   devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000,
     disableHostCheck: true,
     host: ip.address() || "0.0.0.0",
-    port: 9000,
     open: true,
     inline: true,
     proxy: {

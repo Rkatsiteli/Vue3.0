@@ -3,8 +3,9 @@
     <slot />
   </article>
 </template>
-<script>
-export default {
+<script lang="tsx">
+import { defineComponent, ref } from "vue";
+export default defineComponent({
   name: "XFrame",
   props: {
     height: {
@@ -20,13 +21,9 @@ export default {
       default: "",
     },
   },
-  data() {
-    return {};
-  },
-  created() {
-  },
-};
+});
 </script>
+
 <style lang="less" scoped>
 .page-content {
   height: calc(100vh - 101px);

@@ -1,3 +1,5 @@
+import { createApp } from 'vue'
+
 import App from "./App";
 import XFrame from "./XFrame";
 
@@ -8,7 +10,7 @@ const appComponent = {
 // auto install
 if (typeof window !== "undefined" && window.Vue) {
   Object.keys(appComponent).forEach((key) => {
-    Vue.component(key, appComponent[key]);
+    createApp(key, appComponent[key]);
   });
 }
 
