@@ -1,1 +1,0 @@
-(self.webpackChunkbi=self.webpackChunkbi||[]).push([[392],{2392:(e,n,c)=>{"use strict";c.r(n),c.d(n,{default:()=>l});var r=c(2005);const u={render:function(e,n,c,u,l,t){return(0,r.openBlock)(),(0,r.createBlock)("div",null,"我是首页")}},l=u}}]);

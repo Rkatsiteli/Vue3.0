@@ -8,3 +8,4 @@
 /config/local.config.js
 /dev/
 webpack.config.js
+dist
