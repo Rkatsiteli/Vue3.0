@@ -1,11 +1,8 @@
 <template>
   <article class="404">
-    <div>
-      404
-    </div>
+    <div>404页面</div>
   </article>
 </template>
 <script>
-export default {
-};
+export default {};
 </script>

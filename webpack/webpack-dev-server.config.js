@@ -23,7 +23,7 @@ module.exports = {
     inline: true,
     proxy: {
       "*": {
-        target: "127.0.0.1",
+        target: "127.0.0.1:9000",
       },
     },
   },
