@@ -64,16 +64,3 @@ module.exports = {
   ],
 };
 
-/*
-
-npm i vue vue-loader vue-style-loader vue-template-compiler --save-dev
-
-npm i webpack webpack-cli webpack-dev-server ip html-webpack-plugin clean-webpack-plugin --save-dev
-
-npm i autoprefixer-loader babel-core babel-loader babel-preset-es2015 babel-preset-stage-0 --save-dev
-
-npm i style-loader css-loader less less-loader url-loader --save-dev
-
-npm i eslint eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-import eslint-plugin-vue eslint-plugin-jsx-a11y eslint-plugin-react -g
-
- */
