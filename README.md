@@ -2,12 +2,12 @@
 Vue3.0 
 
 安装
-npm i 
+> npm i 
 
 启动
-npm run dev
+> npm run dev
 
 打包
-npm run build
+> npm run build
 
 
